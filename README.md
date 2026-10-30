@@ -18,6 +18,8 @@ This project evaluates the Bosch BMP581 pressure sensor for low-power altitude t
 
 Pressure-based altitude depends on a stable reference pressure. Ambient pressure changes caused drift, so the relative-altitude result was only reliable over a short period. The report recommends testing in a pressure-controlled chamber and investigating the high-OSR anomalies and power measurements further.
 
+A more detailed report can be found [here](https://github.com/ShumoWang/BMP581Evaluation/blob/main/final_report.pdf)
+
 ## Repository Contents
 
 - `AltitudeMeasurementByPressure/` and `ArduinoAltitudeTesting/`: Arduino sketches for pressure-to-altitude and sensor reading tests.
